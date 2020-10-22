@@ -1,0 +1,122 @@
+/*global css*/
+*{
+	margin:0;
+	padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+h1,h2{
+font-family: 'Alfa Slab One', regular;
+}
+h3,h4,h5,h6,button{
+	font-family: 'Bebas Neuebold', cursive;
+}
+p,span,input{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*header part css strart her*/
+header{
+	width: 100%;
+	height: 100vh;
+	background:url(../img/banner.png);
+	background-size: cover;
+	background-repeat:none;
+	background-position: center;
+}
+nav{
+	padding: 24px 0 !important;
+}
+.nav-item{
+	margin-left: 24px;
+}
+.nav-link{
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*header part css stop here*/
+
+/*banner text section css start here*/
+.banner{
+	width: 100%;
+	margin: 200px 0;
+
+}
+.pre-title{
+    font-family: 'Bebas Neue', regular !important;
+    font-size: 22px;
+    color: #3d2514 !important;
+    border: 3px dashed;
+    display: inline-block;
+    padding: 4px 7px;
+}
+.title{
+	color: #3d2514;
+	font-size: 87px;
+	font-weight: 600;
+	font-family: 'Alfa Slab One', regular;
+	text-shadow: 4px 4px #fee8bc;
+}
+.sub-title{
+	font-family: 'Alfa Slab One';
+	color: #3d2514;
+	font-family: 'Alfa Slab One', regular;
+	font-size: 50px;
+	text-shadow: 3px 3px #fee8bc;
+}
+.price-tag{
+	height: 150px;
+    width: 150px;
+    background:#bf2222;
+    border-radius: 85px;
+    text-align: center;
+    line-height: 7;
+    color: white;
+    font-size: 17px;
+    margin-top: 226px;
+    margin-left: 20px;
+    position: relative;
+
+}
+.price{
+	position: absolute;
+    line-height: 1px;
+    font-weight: 600;
+    padding: 21px;
+    text-align: center;
+    height: 135px;
+    width: 134px;
+    border-radius: 82px;
+    border: 3px dashed;
+    margin: 7px;
+}
+/*banner text section css stop here*/ 
+
+ /*burger blog section start here*/
+
+.burger-blog{
+	width: 100%;
+	padding: 40px 0;
+}
+.blog-info,.lower-post,.uper-post{
+	position: relative;
+	
+}
+.blog-title{
+	position: absolute;
+	top: 30px;
+    left: 15px;
+    color: white;
+    text-transform:uppercase;
+}
+.blog-title h3{
+	font-size: 30px;
+}
+.uper-post{
+	margin-bottom: 30px;
+ /*burger blog section css stop here*/
+}
+.uper-post,.blog-title h3,.lower-post, .blog-title h3{
+	line-height: 1px;
+}
